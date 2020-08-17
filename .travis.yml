@@ -27,12 +27,3 @@ script:
   - ant all
   - ant debug
 
-deploy:
-  - provider: script
-    skip_cleanup: true
-    script: "./_scripts/deploy-live-nisp.sh"
-    on:
-      branch: master
-
-after_script:
-  - "./_scripts/trigger-site-build.sh"
