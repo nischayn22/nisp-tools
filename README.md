@@ -2,7 +2,7 @@
 
 # NATO Interoperability Standards and Profiles (NISP)
 
-[![Linux Build Status](https://travis-ci.org/stavnstrup/nisp-tools.svg?branch=master)](https://travis-ci.org/stavnstrup/nisp-tools)
+[![Linux Build Status](https://api.travis-ci.org/nischayn22/nisp-tools.svg?branch=master)](https://api.travis-ci.org/nischayn22/nisp-tools.svg?branch=master)
 
 This distribution contains the stylesheets, building tools and
 documentation necessary to work with XML version of the NATO
