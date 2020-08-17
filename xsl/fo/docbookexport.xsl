@@ -20,9 +20,9 @@
 <xsl:param name="page.margin.outer">0.5in</xsl:param>
 
 <xsl:param name="body.font.family">Times Roman</xsl:param>
-<xsl:param name="body.font.size">BODYFONTUSletter</xsl:param>
+<xsl:param name="body.font.size">USletter</xsl:param>
 <xsl:param name="title.font.family">Helvetica</xsl:param>
-<xsl:param name="footnote.font.size">FOOTNOTEFONTUSletter</xsl:param>
+<xsl:param name="footnote.font.size">USletter</xsl:param>
 
 <xsl:attribute-set name="footnote.properties">
 	<xsl:attribute name="font-family">Times Roman</xsl:attribute>
