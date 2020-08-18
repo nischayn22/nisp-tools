@@ -9,23 +9,23 @@
 <xsl:param name="ulink.show" select="0"></xsl:param>
 <xsl:param name="double.sided" select="1" />
 <xsl:param name="page.orientation">portrait</xsl:param>
-<xsl:param name="paper.type">USletter</xsl:param>
+<xsl:param name="paper.type">A4</xsl:param>
 <xsl:param name="column.count.body" select="1"></xsl:param>
 
-<xsl:param name="section.autolabel.max.depth">4</xsl:param>
+<xsl:param name="section.autolabel.max.depth">6</xsl:param>
 
 <xsl:param name="page.margin.bottom">0.5in</xsl:param>
 <xsl:param name="page.margin.top">0.5in</xsl:param>
 <xsl:param name="page.margin.inner">0.5in</xsl:param>
 <xsl:param name="page.margin.outer">0.5in</xsl:param>
 
-<xsl:param name="body.font.family">Times Roman</xsl:param>
+<xsl:param name="body.font.family">serif</xsl:param>
 <xsl:param name="body.font.size">12</xsl:param>
-<xsl:param name="title.font.family">Helvetica</xsl:param>
+<xsl:param name="title.font.family">sans-serif</xsl:param>
 <xsl:param name="footnote.font.size">10</xsl:param>
 
 <xsl:attribute-set name="footnote.properties">
-	<xsl:attribute name="font-family">Times Roman</xsl:attribute>
+	<xsl:attribute name="font-family">serif</xsl:attribute>
 </xsl:attribute-set>
 
 
@@ -61,7 +61,7 @@
 												<xsl:value-of select="title/@header"/>
 											</xsl:when>
 											<xsl:otherwise>
-												NATO Book Header
+												ADatP-34(L)
 											</xsl:otherwise>
 										</xsl:choose>
 									</xsl:otherwise>
@@ -80,7 +80,7 @@
 										<xsl:value-of select="./chapter/title/@header_right"/>
 									</xsl:when>
 									<xsl:otherwise>
-										ADatP-34-REV1
+										
 									</xsl:otherwise>
 								</xsl:choose>
 							</xsl:when>
@@ -110,7 +110,7 @@
 										<xsl:value-of select="./chapter/title/@header_right"/>
 									</xsl:when>
 									<xsl:otherwise>
-										ADatP-34-REV1
+										
 									</xsl:otherwise>
 								</xsl:choose>
 							</xsl:when>
@@ -154,7 +154,7 @@
 									<xsl:value-of select="./chapter/title/@footer"/>
 								</xsl:when>
 								<xsl:otherwise>
-									<fo:block>NATO Book Footer</fo:block>
+									<fo:block>DRAFT</fo:block>
 								</xsl:otherwise>
 							</xsl:choose>
                         </xsl:when>
@@ -169,7 +169,7 @@
 											<xsl:value-of select="./chapter/title/@footer_right"/>
 										</xsl:when>
 										<xsl:otherwise>
-											Edition M Version 1
+											
 										</xsl:otherwise>
 									</xsl:choose>
 								</xsl:when>
@@ -199,7 +199,7 @@
 											<xsl:value-of select="./chapter/title/@footer_right"/>
 										</xsl:when>
 										<xsl:otherwise>
-											Edition M Version 1
+											
 										</xsl:otherwise>
 									</xsl:choose>
 								</xsl:when>
