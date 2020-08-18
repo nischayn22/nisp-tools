@@ -1,6 +1,9 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
-<book xmlns:xlink="http://www.w3.org/1999/xlink"><bookinfo><title>NISP Volume 2</title><subtitle>Edition M Version 1</subtitle><corpauthor>NATO<indexterm><primary>NATO</primary></indexterm> C3 Board - Interoperability Profiles Capability Team (IPCaT<indexterm><primary>IPCaT</primary></indexterm>)</corpauthor><productname class="trade">MY PRODUCT NAME</productname><biblioid class="pubnumber">MY Bibliod</biblioid><volumenum>2</volumenum><revhistory><revision><revnumber>13.1</revnumber><date> 18 July 2020</date></revision></revhistory><keywordset><keyword>KEYWORD1</keyword><keyword>KEYWORD2</keyword></keywordset><subjectset><subject><subjectterm>DO NOT REMOVE</subjectterm></subject></subjectset></bookinfo><chapter><title header="Agreed Interoperability Standards and Profiles">Agreed Interoperability Standards and Profiles</title><para>
+<book xmlns:xlink="http://www.w3.org/1999/xlink"><bookinfo><title>NISP Volume 2</title><subtitle>Edition M Version 1 Wiki Version</subtitle><corpauthor>NATO<indexterm><primary>NATO</primary></indexterm> C3 Board - Interoperability Profiles Capability Team (IPCaT<indexterm><primary>IPCaT</primary></indexterm>)</corpauthor><productname class="trade">MY PRODUCT NAME</productname><biblioid class="pubnumber">MY Bibliod</biblioid><volumenum>2</volumenum><revhistory><revision><revnumber>13.1</revnumber><date> 18 July 2020</date></revision></revhistory><keywordset><keyword>KEYWORD1</keyword><keyword>KEYWORD2</keyword></keywordset><subjectset><subject><subjectterm>DO NOT REMOVE</subjectterm></subject></subjectset></bookinfo><chapter><title header="Agreed Interoperability Standards and Profiles">Agreed Interoperability Standards and Profiles</title>
+
+<section><title><anchor id="5f3b60120bba5_Vol2-Agreed_Interoperability_Standards_and_Profiles__Introduction"/>Introduction
+</title><para>
   Volume 2 of the NISP focuses on agreed interoperability standards and
   profiles.
 </para>
@@ -20,7 +23,7 @@
   (LoU)<superscript><link linkend="cite_note-1">[1]</link></superscript>.
 </para>
 
-<section><title><anchor id="5f27f9d56bad5_Vol2-Agreed_Interoperability_Standards_and_Profiles__Scope"/>Scope
+<section><title><anchor id="5f3b60120bbe5_Vol2-Agreed_Interoperability_Standards_and_Profiles__Scope"/>Scope
 </title><para>
   The scope of this volume includes:
 </para>
@@ -37,84 +40,79 @@
     </para>
   </listitem>
 </itemizedlist>
-<section xml:id="reference-models-transition-from-platform-centric-to-service-oriented-models">
-  <title><anchor id="Reference_Models:_Transition_from_Platform_Centric_to_Service_Oriented_Models"/>Reference
-  Models: Transition from Platform Centric to Service Oriented
-  Models</title>
-  <para>
-    Information technology has undergone a fundamental shift from
-    platform-oriented computing to service-oriented computing.
-    Platform-oriented computing emerged with the widespread
-    proliferation of personal computers and the global business
-    environment. These factors and related technologies have created the
-    conditions for the emergence of network- oriented computing. This
-    shift from platform to network is what enables the more flexible and
-    more dynamic network-oriented operation. The shift from viewing NATO<indexterm><primary>NATO</primary></indexterm>
-    and partner Nations as independent to viewing them as part of a
-    continuously adapting network ecosystem fosters a rich information
-    sharing environment.
-  </para>
-  <para>
-    This shift is most obvious in the explosive growth of the Internet,
-    intranets, and extranets. Internet users no doubt will recognize
-    transmission control protocol/internet protocol (TCP/IP), hypertext
-    transfer protocol (HTTP), hypertext markup language (HTML), Web
-    browsers, search engines, and
-    Java<footnote><para>Registered Trademark of ORACLE and/or its affiliates. Other names may be the trademarks of their respective owners.</para></footnote>
-    Computing. These technologies, combined with high-volume, high-speed
-    data access (enabled by the low-cost laser) and technologies for
-    high- speed data networking (switches and routers) have led to the
-    emergence of network-oriented computing. Information
-    "content" now can be created, distributed, and easily
-    exploited across the extremely heterogeneous global computing
-    environment. The "power" or "payoff" of
-    network-oriented computing comes from information-intensive
-    interactions between very large numbers of heterogeneous
-    computational nodes in the network, where the network becomes the
-    dynamic information grid established by interconnecting participants
-    in a collaborative, coalition environment. At the structural level,
-    network-enabled warfare requires an operational architecture to
-    enable common processes to be shared.
-  </para>
-  <para>
-    One of the major drivers for supporting net-enabled operations is
-    Service-Oriented Architectures (SOA). SOA is an architectural style
-    that leverages heterogeneity, focuses on interfaces between services
-    and as such this approach is inherently platform-neutral. It is
-    focused on the composition of Services into flexible processes and
-    is more concerned with the Service interface and above (including
-    composition metadata, security policy, and dynamic binding
-    information), more so than what sits beneath the abstraction of the
-    Service interface. SOA requires a different kind of platform,
-    because runtime execution has different meanings within SOA. SOA
-    enables users and process architects to compose Services into
-    processes, and then manage and evolve those processes, in a
-    declarative fashion. Runtime execution of such processes is
-    therefore a metadata-centric operation of a different kind of
-    platform -- a Service- oriented composite application platform.
-  </para>
-  <para>
-    Service-enabled operations are characterized by new concepts of
-    speed of command and self-synchronization.
-  </para>
-  <para>
-    The most important SOA within an enterprise is the one that links
-    all its systems. Existing platforms can be wrapped or extended in
-    order to participate in a wider SOA environment.
-  </para>
-  <para>
-    NATO<indexterm><primary>NATO</primary></indexterm> use of the NISP will provide a template for new systems
-    development, as well as assist in defining the path for existing
-    systems to migrate towards net-enabled operations.
-  </para>
-</section>
-<section xml:id="standards">
-  <title><anchor id="Standards"/>Standards</title>
-  <para>
-  </para>
-</section>
 
-</section><section><title><anchor id="5f27f9d56bb36_Vol2-Agreed_Interoperability_Standards_and_Profiles__Introduction_2"/>Introduction
+</section></section><section><title><anchor id="5f3b60120bc24_Vol2-Agreed_Interoperability_Standards_and_Profiles__Reference_Models:_Transition_from_Platform_Centric_to_Service_Oriented_Models"/>Reference
+Models: Transition from Platform Centric to Service Oriented Models
+</title><para>
+  Information technology has undergone a fundamental shift from
+  platform-oriented computing to service-oriented computing.
+  Platform-oriented computing emerged with the widespread proliferation
+  of personal computers and the global business environment. These
+  factors and related technologies have created the conditions for the
+  emergence of network- oriented computing. This shift from platform to
+  network is what enables the more flexible and more dynamic
+  network-oriented operation. The shift from viewing NATO<indexterm><primary>NATO</primary></indexterm> and partner
+  Nations as independent to viewing them as part of a continuously
+  adapting network ecosystem fosters a rich information sharing
+  environment.
+</para>
+<para>
+  This shift is most obvious in the explosive growth of the Internet,
+  intranets, and extranets. Internet users no doubt will recognize
+  transmission control protocol/internet protocol (TCP/IP), hypertext
+  transfer protocol (HTTP), hypertext markup language (HTML), Web
+  browsers, search engines, and
+  Java<footnote><para>Registered Trademark of ORACLE and/or its affiliates. Other names may be the trademarks of their respective owners.</para></footnote>
+  Computing. These technologies, combined with high-volume, high-speed
+  data access (enabled by the low-cost laser) and technologies for high-
+  speed data networking (switches and routers) have led to the emergence
+  of network-oriented computing. Information "content" now can
+  be created, distributed, and easily exploited across the extremely
+  heterogeneous global computing environment. The "power" or
+  "payoff" of network-oriented computing comes from
+  information-intensive interactions between very large numbers of
+  heterogeneous computational nodes in the network, where the network
+  becomes the dynamic information grid established by interconnecting
+  participants in a collaborative, coalition environment. At the
+  structural level, network-enabled warfare requires an operational
+  architecture to enable common processes to be shared.
+</para>
+<para>
+  One of the major drivers for supporting net-enabled operations is
+  Service-Oriented Architectures (SOA). SOA is an architectural style
+  that leverages heterogeneity, focuses on interfaces between services
+  and as such this approach is inherently platform-neutral. It is
+  focused on the composition of Services into flexible processes and is
+  more concerned with the Service interface and above (including
+  composition metadata, security policy, and dynamic binding
+  information), more so than what sits beneath the abstraction of the
+  Service interface. SOA requires a different kind of platform, because
+  runtime execution has different meanings within SOA. SOA enables users
+  and process architects to compose Services into processes, and then
+  manage and evolve those processes, in a declarative fashion. Runtime
+  execution of such processes is therefore a metadata-centric operation
+  of a different kind of platform -- a Service- oriented composite
+  application platform.
+</para>
+<para>
+  Service-enabled operations are characterized by new concepts of speed
+  of command and self-synchronization.
+</para>
+<para>
+  The most important SOA within an enterprise is the one that links all
+  its systems. Existing platforms can be wrapped or extended in order to
+  participate in a wider SOA environment.
+</para>
+<para>
+  NATO<indexterm><primary>NATO</primary></indexterm> use of the NISP will provide a template for new systems
+  development, as well as assist in defining the path for existing
+  systems to migrate towards net-enabled operations.
+</para>
+
+</section><section><title><anchor id="5f3b60120bc5f_Vol2-Agreed_Interoperability_Standards_and_Profiles__Standards"/>Standards
+</title>
+
+<section><title><anchor id="5f3b60120bc6b_Vol2-Agreed_Interoperability_Standards_and_Profiles__Introduction_2"/>Introduction
 </title><para>
   The purpose of this chapter is to specify the agreed NISP standards.
   The document organizes these standards, following baseline 2.0<indexterm><primary>RSS</primary><secondary>2.0</secondary></indexterm> NATO<indexterm><primary>NATO</primary></indexterm>'s
@@ -149,7 +147,7 @@
   STANAG (Study) X Ed Y.
 </para>
 
-<section><title><anchor id="5f27f9d56bb66_Vol2-Agreed_Interoperability_Standards_and_Profiles__Releasability_Statement"/>Releasability
+<section><title><anchor id="5f3b60120bc8f_Vol2-Agreed_Interoperability_Standards_and_Profiles__Releasability_Statement"/>Releasability
 Statement
 </title><para>
   In principle, NISP only contains or references standards or related
@@ -157,13 +155,13 @@ Statement
   nations/CCEB.
 </para>
 
-</section></section><section><title><anchor id="5f27f9d56bb76_Vol2-Agreed_Interoperability_Standards_and_Profiles__User_Applications"/>User
+</section></section><section><title><anchor id="5f3b60120bcb0_Vol2-Agreed_Interoperability_Standards_and_Profiles__User_Applications"/>User
 Applications
 </title><para>
   -- insert semantic query --
 </para>
 
-</section><section><title><anchor id="5f27f9d56bb83_Vol2-Agreed_Interoperability_Standards_and_Profiles__Technical_Services"/>Technical
+</section><section><title><anchor id="5f3b60120bcbc_Vol2-Agreed_Interoperability_Standards_and_Profiles__Technical_Services"/>Technical
 Services
 </title><para>
   The "Technical Services" include those services required to
@@ -186,15 +184,14 @@ Services
   (currently only included as candidate standards).
 </para>
 
-<section><title><anchor id="5f27f9d56bb98_Vol2-Agreed_Interoperability_Standards_and_Profiles__Community_Of_Interest_.28COI.29_Services"/>Community
+<section><title><anchor id="5f3b60120bcd2_Vol2-Agreed_Interoperability_Standards_and_Profiles__Community_Of_Interest_.28COI.29_Services"/>Community
 Of Interest (COI) Services
-</title><section xml:id="standardsyyy">
-  <title><anchor id="StandardsYYY"/>StandardsYYY</title>
-  <para>
-  </para>
-</section>
+</title>
 
-</section></section><section><title><anchor id="5f27f9d56bbab_Vol2-Agreed_Interoperability_Standards_and_Profiles__Introduction_3"/>Introduction
+</section></section></section><section><title><anchor id="5f3b60120bcdd_Vol2-Agreed_Interoperability_Standards_and_Profiles__StandardsYYY"/>StandardsYYY
+</title>
+
+<section><title><anchor id="5f3b60120bd36_Vol2-Agreed_Interoperability_Standards_and_Profiles__Introduction_3"/>Introduction
 </title><para>
   The purpose of this chapter is to specify the candidate NISP
   standards. The document organizes these standards, following baseline
@@ -229,7 +226,7 @@ Of Interest (COI) Services
   STANAG (Study) X Ed Y.
 </para>
 
-<section><title><anchor id="5f27f9d56bbcb_Vol2-Agreed_Interoperability_Standards_and_Profiles__Releasability_Statement_2"/>Releasability
+<section><title><anchor id="5f3b60120bd56_Vol2-Agreed_Interoperability_Standards_and_Profiles__Releasability_Statement_2"/>Releasability
 Statement
 </title><para>
   In principle, NISP only contains or references standards or related
@@ -237,7 +234,7 @@ Statement
   nations/CCEB.
 </para>
 
-</section></section><section><title><anchor id="5f27f9d56bbd8_Vol2-Agreed_Interoperability_Standards_and_Profiles__User_Applications_2"/>User
+</section></section><section><title><anchor id="5f3b60120bd64_Vol2-Agreed_Interoperability_Standards_and_Profiles__User_Applications_2"/>User
 Applications
 </title><table>
   <title>
@@ -622,7 +619,7 @@ Applications
   </tgroup>
 </table>
 
-</section><section><title><anchor id="5f27f9d56bdb1_Vol2-Agreed_Interoperability_Standards_and_Profiles__Technical_Services_2"/>Technical
+</section><section><title><anchor id="5f3b60120bf21_Vol2-Agreed_Interoperability_Standards_and_Profiles__Technical_Services_2"/>Technical
 Services
 </title><para>
   The "Technical Services" include those services required to
@@ -645,7 +642,7 @@ Services
   (currently only included as candidate standards).
 </para>
 
-<section><title><anchor id="5f27f9d56be2f_Vol2-Agreed_Interoperability_Standards_and_Profiles__Community_Of_Interest_.28COI.29_Services_2"/>Community
+<section><title><anchor id="5f3b60120bf9f_Vol2-Agreed_Interoperability_Standards_and_Profiles__Community_Of_Interest_.28COI.29_Services_2"/>Community
 Of Interest (COI) Services
 </title><table>
   <title>
@@ -1317,7 +1314,7 @@ Of Interest (COI) Services
   </tgroup>
 </table>
 
-</section><section><title><anchor id="5f27f9d56c146_Vol2-Agreed_Interoperability_Standards_and_Profiles__Core_Services"/>Core
+</section><section><title><anchor id="5f3b60120c34e_Vol2-Agreed_Interoperability_Standards_and_Profiles__Core_Services"/>Core
 Services
 </title><table>
   <title>
@@ -3832,7 +3829,7 @@ Services
   </tgroup>
 </table>
 
-</section><section><title><anchor id="5f27f9d56d093_Vol2-Agreed_Interoperability_Standards_and_Profiles__Communications_Services"/>Communications
+</section><section><title><anchor id="5f3b60120d2ab_Vol2-Agreed_Interoperability_Standards_and_Profiles__Communications_Services"/>Communications
 Services
 </title><table>
   <title>
@@ -4329,7 +4326,7 @@ Services
 <literallayout>
 </literallayout>
 
-</section><section><title><anchor id="5f27f9d56d43a_Vol2-Agreed_Interoperability_Standards_and_Profiles__Extended_C3_Taxonomy"/>Extended
+</section><section><title><anchor id="5f3b60120d5bf_Vol2-Agreed_Interoperability_Standards_and_Profiles__Extended_C3_Taxonomy"/>Extended
 C3 Taxonomy
 </title><para>
   The following table list taxonomy nodes, which will be part of a
@@ -4946,15 +4943,15 @@ C3 Taxonomy
   </tgroup>
 </table>
 
-</section></section><section><title><anchor id="5f27f9d56d7dd_Vol2-Agreed_Interoperability_Standards_and_Profiles__un-assigned_Standards"/>un-assigned
+</section></section><section><title><anchor id="5f3b60120d8ef_Vol2-Agreed_Interoperability_Standards_and_Profiles__un-assigned_Standards"/>un-assigned
 Standards
-</title><section xml:id="agreed-profiles">
-  <title><anchor id="Agreed_Profiles"/>Agreed Profiles</title>
-  <para>
-  </para>
-</section>
+</title>
 
-</section><section><title><anchor id="5f27f9d56d81a_Vol2-Agreed_Interoperability_Standards_and_Profiles__Introduction_4"/>Introduction
+</section></section><section><title><anchor id="5f3b60120d92c_Vol2-Agreed_Interoperability_Standards_and_Profiles__Agreed_Profiles"/>Agreed
+Profiles
+</title>
+
+<section><title><anchor id="5f3b60120d939_Vol2-Agreed_Interoperability_Standards_and_Profiles__Introduction_4"/>Introduction
 </title><para>
   The NATO<indexterm><primary>NATO</primary></indexterm> Interoperability Standards and Profiles include the set of
   Agreed Profiles listed below.
@@ -4973,4 +4970,4 @@ Standards
   </listitem>
 </orderedlist>
 
-</section></chapter><index/></book>
+</section></section></chapter><index/></book>
